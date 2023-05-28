@@ -1,0 +1,80 @@
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-200px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-200px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+
+/* Add animation to "page content" */
+.animate-top {
+  position: relative;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 1s;
+  animation-name: animatetop;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes animatetop {
+  from { top:-200px; opacity:0 } 
+  to { top:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ top:-200px; opacity:0 } 
+  to{ top:0; opacity:1 }
+}
+
+
+/* Add animation to "page content" */
+.animate-left{
+  position: relative;
+  -webkit-animation-name: animateleft;
+  -webkit-animation-duration: 1s;
+  animation-name: animateleft;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes animateleft {
+  from { left:-200px; opacity:0 } 
+  to { left:0px; opacity:1 }
+}
+
+@keyframes animateright { 
+  from{ left:-200px; opacity:0 } 
+  to{ left:0; opacity:1 }
+}
+
+
+/* Add animation to "page content" */
+.animate-right {
+  position: relative;
+  -webkit-animation-name: animateright;
+  -webkit-animation-duration: 1s;
+  animation-name: animateright;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes animateright {
+  from { right:-200px; opacity:0 } 
+  to { right:0px; opacity:1 }
+}
+
+@keyframes animateright{ 
+  from{ right:-200px; opacity:0 } 
+  to{ right:0; opacity:1 }
+}
+
