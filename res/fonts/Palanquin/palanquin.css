@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family:"Palanquin";
+    src: url("Palanquin-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+    font-family: "Palanquin", sans-serif;
+}
